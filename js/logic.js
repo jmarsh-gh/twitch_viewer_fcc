@@ -8,31 +8,28 @@ console.log("linked");
 
 
 function main(){
-//test list
-var list = document.querySelector("#list");
-list.innerHTML = "<li>Test</li>";
+	function test(searchUrl, title){
+		$.getJSON(searchUrl, function(json) {
+			var listID = "#" + title;
+			//if null show as offline
+			if(json.stream == null){
+				document.querySelector(listID).innerHTML += "<p class='list-group-item-text'>Offline!</p>";
+			} else {
+				document.querySelector(listID).innerHTML += "<p class='list-group-item-text'>Online!</p>";
+			}
+			//show placeholder if account closed - this may have been removed from API.
+		});//getJSON
+	};//test
 
 	//loop through array of channels
-	var channels = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
-	//getJson
-	var channelName = "starladder5"
-	var searchUrl = "https://wind-bow.gomix.me/twitch-api/streams/" + channelName;
-	$.getJSON(searchUrl, function(json) {
-		console.log(json);
-		//if null show as offline
-		if(json.stream == null){
-			alert("offline");
-		} else {
-			alert("online!");
-		}
-		//else show as online and stream info
-
-
-		//show placeholder if account closed - this may have been removed from API.
-
-	});//getJSON
-
-//button to add a streamer
+	var channels = ["starladder5", "ESL_SC2", "OgamingSC2", "freecodecamp"];
+	for(var x = 0; x < channels.length; x++){
+		console.log(channels[x]);
+		var searchUrl = "https://wind-bow.gomix.me/twitch-api/streams/" + channels[x];
+		test(searchUrl, channels[x]);
+	}; //for loop	
+    
+    //button to add a streamer
 
 }; //main
 
@@ -42,3 +39,4 @@ list.innerHTML = "<li>Test</li>";
 $(document).ready(main());
 
 //list.appendChild(document.createElement('div')).innerHTML = "<a href='" + pageUrl + "' class='list-group-item' target='_blank'>" + "<h4 class='list-group-item-heading'>" + articleTitle + "</h4>" + "<p class='list-group-item-text'>" + extractTrunc + "</p>" + "</a>";
+//http://stackoverflow.com/questions/28268901/how-do-i-use-innerhtml-inside-a-loop-using-javascript
