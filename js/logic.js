@@ -8,18 +8,22 @@ console.log("linked");
 
 
 function main(){
+	
 	function test(searchUrl, title){
 		$.getJSON(searchUrl, function(json) {
 			var listID = "#" + title;
+			var listItem = document.querySelector(listID);
 			//if null show as offline
 			if(json.stream == null){
-				document.querySelector(listID).innerHTML += "<p class='list-group-item-text'>Offline!</p>";
+				listItem.innerHTML += "<p class='list-group-item-text'>Offline!</p>";
+				listItem.classList.add("offline");
 			} else {
-				document.querySelector(listID).innerHTML += "<p class='list-group-item-text'>Online!</p>";
+				listItem.innerHTML += "<p class='list-group-item-text'>Online!</p>";
+				listItem.classList.add("online");
 			}
 			//show placeholder if account closed - this may have been removed from API.
 		});//getJSON
-	};//test
+	}//test
 
 	//loop through array of channels
 	var channels = ["starladder5", "ESL_SC2", "OgamingSC2", "freecodecamp"];
@@ -27,11 +31,11 @@ function main(){
 		console.log(channels[x]);
 		var searchUrl = "https://wind-bow.gomix.me/twitch-api/streams/" + channels[x];
 		test(searchUrl, channels[x]);
-	}; //for loop	
+	}//for loop	
     
     //button to add a streamer
 
-}; //main
+}//main
 
 
 

@@ -1,6 +1,10 @@
-.list-group-item {
+.online {
 	background-color: green;
 }
+.offline {
+	background-color:red;
+}
+
 .well {
     text-align: center;
 }
