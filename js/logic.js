@@ -18,7 +18,7 @@ function main(){
 				listItem.innerHTML += "<p class='list-group-item-text'>Offline!</p>";
 				listItem.classList.add("offline");
 			} else {
-				listItem.innerHTML += "<p class='list-group-item-text'>Online!</p>";
+				listItem.innerHTML += "<p class='list-group-item-text'>Online! Playing " + json.stream.game + "</p> <img src='" + json.stream.channel.logo + "'>";
 				listItem.classList.add("online");
 			}
 			//show placeholder if account closed - this may have been removed from API.
