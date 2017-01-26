@@ -8,7 +8,7 @@ console.log("linked");
 
 
 function main(){
-// 	test
+// 	test back at ya
 	function test(searchUrl, title){
 		$.getJSON(searchUrl, function(json) {
 			var listID = "#" + title;
