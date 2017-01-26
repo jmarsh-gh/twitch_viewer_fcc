@@ -1,3 +1,4 @@
+
 console.log("linked");
 
 //Example streamer API calls
@@ -8,18 +9,22 @@ console.log("linked");
 
 
 function main(){
+	
 	function test(searchUrl, title){
 		$.getJSON(searchUrl, function(json) {
 			var listID = "#" + title;
+			var listItem = document.querySelector(listID);
 			//if null show as offline
 			if(json.stream == null){
-				document.querySelector(listID).innerHTML += "<p class='list-group-item-text'>Offline!</p>";
+				listItem.innerHTML += "<p class='list-group-item-text'>Offline!</p>";
+				listItem.classList.add("offline");
 			} else {
-				document.querySelector(listID).innerHTML += "<p class='list-group-item-text'>Online!</p>";
+				listItem.innerHTML += "<p class='list-group-item-text'>Online!</p>";
+				listItem.classList.add("online");
 			}
 			//show placeholder if account closed - this may have been removed from API.
 		});//getJSON
-	};//test
+	}//test
 
 	//loop through array of channels
 	var channels = ["starladder5", "ESL_SC2", "OgamingSC2", "freecodecamp"];
@@ -27,11 +32,11 @@ function main(){
 		console.log(channels[x]);
 		var searchUrl = "https://wind-bow.gomix.me/twitch-api/streams/" + channels[x];
 		test(searchUrl, channels[x]);
-	}; //for loop	
+	}//for loop	
     
     //button to add a streamer
 
-}; //main
+}//main
 
 
 
@@ -39,4 +44,5 @@ function main(){
 $(document).ready(main());
 
 //list.appendChild(document.createElement('div')).innerHTML = "<a href='" + pageUrl + "' class='list-group-item' target='_blank'>" + "<h4 class='list-group-item-heading'>" + articleTitle + "</h4>" + "<p class='list-group-item-text'>" + extractTrunc + "</p>" + "</a>";
+>>>>>>> fe922053dc4dd9099479d4ea575fbc2a3e72f6c6
 //http://stackoverflow.com/questions/28268901/how-do-i-use-innerhtml-inside-a-loop-using-javascript
