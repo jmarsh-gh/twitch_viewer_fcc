@@ -1,4 +1,3 @@
-
 console.log("linked");
 
 //Example streamer API calls
@@ -9,7 +8,7 @@ console.log("linked");
 
 
 function main(){
-	
+// 	test
 	function test(searchUrl, title){
 		$.getJSON(searchUrl, function(json) {
 			var listID = "#" + title;
@@ -44,5 +43,4 @@ function main(){
 $(document).ready(main());
 
 //list.appendChild(document.createElement('div')).innerHTML = "<a href='" + pageUrl + "' class='list-group-item' target='_blank'>" + "<h4 class='list-group-item-heading'>" + articleTitle + "</h4>" + "<p class='list-group-item-text'>" + extractTrunc + "</p>" + "</a>";
->>>>>>> fe922053dc4dd9099479d4ea575fbc2a3e72f6c6
 //http://stackoverflow.com/questions/28268901/how-do-i-use-innerhtml-inside-a-loop-using-javascript
