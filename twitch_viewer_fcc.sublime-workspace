@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"background",
+				"background-color"
+			],
+			[
 				"channe",
 				"channelName"
 			],
@@ -79,7 +83,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1343,
+				"buffer_size": 1544,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -88,7 +92,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 19,
+				"buffer_size": 106,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -103,10 +107,7 @@
 			}
 		},
 		{
-			"contents": "GET twitch data - done\nadd streams to a list\nshow as online/offline/closed\nshow stream info for online\nshow pictures\nadd filter for all/online/offline\n\nimportant - learned about scope with getJSON and asynchronisity. Channels[x] didn't work inside getJSON.\n\n",
 			"file": "todo.md",
-			"file_size": 159,
-			"file_write_time": 131296798081993267,
 			"settings":
 			{
 				"buffer_size": 258,
@@ -118,7 +119,7 @@
 			"file": "/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
 			"settings":
 			{
-				"buffer_size": 9133,
+				"buffer_size": 9470,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -161,12 +162,12 @@
 	],
 	"file_history":
 	[
-		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/js/logic.js",
 		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/index.html",
+		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/css/style.css",
+		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/js/logic.js",
 		"/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
 		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/todo.md",
 		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/js/logic2.js",
-		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/css/style.css",
 		"/F/Media/Downloads/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/index.html",
 		"/C/Users/schrobot/Dropbox/github/wikipedia_viewer_fcc/README.md",
 		"/C/Users/schrobot/Dropbox/github/random_quote_fcc/js/script.js",
@@ -282,15 +283,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1343,
+						"buffer_size": 1544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								951,
-								951
+								345,
+								345
 							]
 						],
 						"settings":
@@ -298,10 +299,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -310,15 +311,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19,
+						"buffer_size": 106,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10,
-								10
+								106,
+								106
 							]
 						],
 						"settings":
@@ -345,8 +346,8 @@
 						"selection":
 						[
 							[
-								1123,
-								1123
+								574,
+								574
 							]
 						],
 						"settings":
@@ -354,10 +355,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -394,15 +395,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9133,
+						"buffer_size": 9470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9051,
-								9051
+								9284,
+								9222
 							]
 						],
 						"settings":
@@ -410,7 +411,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4158.0,
+						"translation.y": 4401.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
