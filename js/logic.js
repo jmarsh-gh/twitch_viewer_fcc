@@ -18,7 +18,7 @@ function main(){
 				listItem.innerHTML += "<p class='list-group-item-text'>Offline!</p>";
 				listItem.classList.add("offline");
 			} else {
-				listItem.innerHTML += "<p class='list-group-item-text'>Online! Playing " + json.stream.game + "</p> <img src='" + json.stream.channel.logo + "'>";
+				listItem.innerHTML += "<p class='list-group-item-text'>Online! Playing " + json.stream.game + "</p> <img style='max-width:20%;max-height:20%' src='" + json.stream.channel.logo + "'>";
 				listItem.classList.add("online");
 			}
 			//show placeholder if account closed - this may have been removed from API.
@@ -35,6 +35,7 @@ function main(){
     
     //button to add a streamer
 
+	
 }//main
 
 
