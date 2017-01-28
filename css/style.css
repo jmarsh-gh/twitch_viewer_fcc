@@ -7,13 +7,16 @@
 
 .well {
     text-align: center;
+    width:75%;
 }
 ul {
 	text-align: left;
+
 }
-.image {
+/*.image {
     height: auto; 
     width: auto; 
     max-width: 50%; 
     max-height: 50%;
-}
+}*/
+

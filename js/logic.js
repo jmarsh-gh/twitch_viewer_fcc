@@ -12,14 +12,19 @@ function main(){
 	function test(searchUrl, title){
 		$.getJSON(searchUrl, function(json) {
 			var listID = "#" + title;
+			var logoID = listID + "logo";
 			var listItem = document.querySelector(listID);
+			var logo = document.querySelector(logoID);
+			console.log(logo);
 			//if null show as offline
 			if(json.stream == null){
 				listItem.innerHTML += "<p class='list-group-item-text'>Offline!</p>";
 				listItem.classList.add("offline");
 			} else {
-				listItem.innerHTML += "<p class='list-group-item-text'>Online! Playing " + json.stream.game + "</p> <img style='max-width:20%;max-height:20%' src='" + json.stream.channel.logo + "'>";
+				logo.setAttribute("src", json.stream.channel.logo);
+				listItem.innerHTML += "<p class='list-group-item-text'>Online! Playing " + json.stream.game + "</p>";
 				listItem.classList.add("online");
+				console.log(logo);
 			}
 			//show placeholder if account closed - this may have been removed from API.
 		});//getJSON
@@ -45,3 +50,4 @@ $(document).ready(main());
 
 //list.appendChild(document.createElement('div')).innerHTML = "<a href='" + pageUrl + "' class='list-group-item' target='_blank'>" + "<h4 class='list-group-item-heading'>" + articleTitle + "</h4>" + "<p class='list-group-item-text'>" + extractTrunc + "</p>" + "</a>";
 //http://stackoverflow.com/questions/28268901/how-do-i-use-innerhtml-inside-a-loop-using-javascript
+//<img src='" + json.stream.channel.logo + "'>

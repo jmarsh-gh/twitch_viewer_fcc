@@ -83,27 +83,27 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1544,
+				"buffer_size": 1672,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 106,
+				"buffer_size": 134,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "js/logic.js",
 			"settings":
 			{
-				"buffer_size": 1534,
+				"buffer_size": 1710,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -119,9 +119,9 @@
 			"file": "/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
 			"settings":
 			{
-				"buffer_size": 9470,
+				"buffer_size": 10163,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -283,15 +283,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1544,
+						"buffer_size": 1672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								345,
-								345
+								0,
+								0
 							]
 						],
 						"settings":
@@ -311,15 +311,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 106,
+						"buffer_size": 134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								0,
+								0
 							]
 						],
 						"settings":
@@ -339,15 +339,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1534,
+						"buffer_size": 1710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								574,
-								574
+								0,
+								0
 							]
 						],
 						"settings":
@@ -395,15 +395,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9470,
+						"buffer_size": 10163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9284,
-								9222
+								9928,
+								9928
 							]
 						],
 						"settings":
@@ -411,7 +411,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4401.0,
+						"translation.y": 4779.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
