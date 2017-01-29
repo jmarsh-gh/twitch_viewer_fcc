@@ -1,8 +1,8 @@
 .online {
-	background-color: green;
+	background-color: #608921;
 }
 .offline {
-	background-color:red;
+	background-color: #AC0123;
 }
 
 .well {
@@ -12,6 +12,9 @@
 ul {
 	text-align: left;
 
+}
+.display {
+	display:none;
 }
 /*.image {
     height: auto; 

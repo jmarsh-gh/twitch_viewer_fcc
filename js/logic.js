@@ -18,6 +18,7 @@ function main(){
 			console.log(logo);
 			//if null show as offline
 			if(json.stream == null){
+				logo.classList.add("display");
 				listItem.innerHTML += "<p class='list-group-item-text'>Offline!</p>";
 				listItem.classList.add("offline");
 			} else {
@@ -26,7 +27,6 @@ function main(){
 				listItem.classList.add("online");
 				console.log(logo);
 			}
-			//show placeholder if account closed - this may have been removed from API.
 		});//getJSON
 	}//test
 
