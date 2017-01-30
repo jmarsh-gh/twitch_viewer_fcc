@@ -16,6 +16,10 @@ ul {
 .display {
 	display:none;
 }
+
+img {
+	margin-right: 10px;
+}
 /*.image {
     height: auto; 
     width: auto; 
