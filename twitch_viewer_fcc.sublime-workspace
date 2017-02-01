@@ -87,7 +87,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1971,
+				"buffer_size": 1973,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -120,10 +120,13 @@
 			}
 		},
 		{
+			"contents": "# 100 Days Of Code - Log\n\n<!--### Day 0: February 30, 2016 (Example 1)\n##### (delete me or comment me out)\n\n**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.\n\n**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.\n\n**Link to work:** [Calculator App](http://www.example.com)\n\n### Day 0: February 30, 2016 (Example 2)\n##### (delete me or comment me out)\n\n**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.\n\n**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.\n\n**Link(s) to work**: [Calculator App](http://www.example.com) -->\n\n\n### Day 1: Tuesday 03 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress** The app now prints the user's location to the page based on their IP!\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 2: Wednesday 04 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress** Tinkering with the weather API. Gotta get that data!\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 3: Thursday 05 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress** The weather app now fetches weather data! Added buttons for Centigrade and Fahrenheit.\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 4: Friday 06 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress**  Code almost done, just need to convert wind degrees to wind direction, then onto making it pretty!\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 5: Saturday 07 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress**  Location, temp, weather (text & icon), wind direction/speed and conversion buttons. Styling next (least fave part)\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 6: Sunday 08 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress**  Spent most of my time today wrestling with Github and then glyphicons. Got both working though!\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 7: Monday 09 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress**  Finishing up the weather app. Almost done. Messing around with icons and images. Made a stupid mistake when I moved my script and CSS files into folders. Left open the old files in Sublime and was editing them wondering why nothing was changing. Oh dear.\n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 8: Tuesday 10 January 2017\n\n**Working On**: Weather APP for the FCC Intermediate Front End Development Projects \n\n**Progress** Weather App finished for now. WIll go back anduse Geolocation rather than IP later (ip doesn't work on mobile data). May add icons and Umbrella section too.  \n\n**Link to work**\n[Weather App](https://github.com/jmarsh-gh/fcc_weather_api)\n\n### Day 9: Wednesday 11 January 2017\n\n**Working On**: Random Quote Machine for the FCC Intermediate Front End Development Projects \n\n**Progress** Started random quote machine for FCC. I've set up the API and it's fetching quotes. Now I need some events! \n\n**Link to work**\n[ASOIAF Quote Machine](https://github.com/jmarsh-gh/random_quote_fcc)\n\n### Day 10: Thursday 12 January 2017\n\n**Working On**: Random Quote Machine for the FCC Intermediate Front End Development Projects \n\n**Progress** Quote machine now has a tweet btn, but some quotes are > 140 chars. Need to think of something neat to deal with that.\n\n**Link to work**\n[ASOIAF Quote Machine](https://github.com/jmarsh-gh/random_quote_fcc)\n\n### Day 11: Friday 13 January 2017\n\n**Working On**: Random Quote Machine for the FCC Intermediate Front End Development Projects \n\n**Progress** Got up before work to do Day 11 as I'm going out tonight. Dedication! Quote machine only shows quotes < 140 chars now.\n\n**Link to work**\n[ASOIAF Quote Machine](https://github.com/jmarsh-gh/random_quote_fcc)\n\n### Day 12: Saturday 14 January 2017\n\n**Working On**: Random Quote Machine for the FCC Intermediate Front End Development Projects \n\n**Progress**: Finished my ASOIAF random quote machine for @freeCodeCamp : http://codepen.io/jmarshcodepen/full/jyroBd/ … Next up: Wikipedia Viewer!\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next** Wikipedia Viewer\n\n**Link to work**\n[ASOIAF Quote Machine](https://github.com/jmarsh-gh/random_quote_fcc)\n\n### Day 13: Sunday 15 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: Today I have been mostly tinkering with the wikipedia API.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Create a list of top 5 search results..\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 14: Monday 16 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: More wikipedia API.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Create a list of top 5 search results..\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 15: Tuesday 17 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: Wikipedia viewer gets search results & random articles. Next: make search results clicky, then make it all pretty.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: make search results clicky, then make it all pretty.\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 16: Wednesday 18 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: Events and styling. Made the list pretty and it only appears when search is clicked.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: More styling, link the input field to var, concat API url.\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 17: Thursday 19 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: Wrestling with createElement and appendChild trying to sort my Wiki search results out.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: More lists, more styling, link the input field to var, concat API url.\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 18: Friday 20 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: MOre work on the lists. I can't work out why classList.add will add classes to hard coded li but not the ones created by javascript.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Finish everything. Link input field for an easy win (famous last words!)\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 19: Saturday 21 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: Added a cheeky regex to slice the summaries of my wiki search results. indexOf(\".\") was slicing after abbreviations.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Add to codepen then start Twitch viewer.\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 20: Sunday 22 January 2017\n\n**Working On**: Wikipedia Viewer for the FCC Intermediate Front End Development Projects \n\n**Progress**: Finished and added to Codepen!\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Twitch Viewer.\n\n**Link to work**\n[Wikipedia Viewer](https://github.com/jmarsh-gh/wikipedia_viewer_fcc)\n\n### Day 21: Monday 23 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Started Twitch viewer for FCC. Set-up the API and it seems to be getting the correct data! \n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Create a list of streamers and show whether they are online or offline.\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 22: Tuesday 24 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: DOM wrangling.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Add more info to online streamers\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 23: Wednesday 25 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Playing around with CSS and .classList for the FCC Twitch App.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Add more info to online streamers\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 24: Thursday 26 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Twitch.tv App: Added more info to streams that are online (game being played, logo etc).\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: sort images. use setAttribute\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 25: Friday 27 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Twitch.tv App: CSS and tidying up. Last 10% takes 90% of the time.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: sort images. use setAttribute\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 26: Saturday 28 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Twitch.tv App: CSS and tidying up. Last 10% takes 90% of the time.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Decided to refactor my code a bit. Using setAttribute instead innerHTML to add stream logos to their respective entries.\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 27: Sunday 29 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Twitch.tv App: CSS and tidying up. Last 10% takes 90% of the time.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: Thinking of completely rewriting my Javascript for Twitch app. Not happy with hardcoded list + innerHTML.\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 28: Monday 30 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Twitch.tv App: CSS and tidying up. Last 10% takes 90% of the time.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\n**To Do Next**: CSS\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n\n### Day 29: Tuesday 31 January 2017\n\n**Working On**: Twitch.tv Viewer\n\n**Progress**: Twitch.tv App: CSS and tidying up. Last 10% takes 90% of the time.\n\n**Technologies Used**: JS/jQuery/Bootstrap/HTML/CSS\n\"\"\n**To Do Next**: CSS\n\n**Link to work**\n[Twitch Viewer](https://github.com/jmarsh-gh/twitch_viewer_fcc)\n",
 			"file": "/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
+			"file_size": 11619,
+			"file_write_time": 131303732996901472,
 			"settings":
 			{
-				"buffer_size": 11308,
+				"buffer_size": 11619,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -289,35 +292,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1971,
+						"buffer_size": 1973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								998,
-								998
-							],
-							[
-								1010,
-								1010
-							],
-							[
-								1279,
-								1279
-							],
-							[
-								1291,
-								1291
-							],
-							[
-								1568,
-								1568
-							],
-							[
-								1580,
-								1580
+								424,
+								424
 							]
 						],
 						"settings":
@@ -328,7 +311,7 @@
 						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -385,7 +368,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -422,15 +405,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11308,
+						"buffer_size": 11619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10508,
-								10508
+								11515,
+								11515
 							]
 						],
 						"settings":
@@ -438,7 +421,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5592.0,
+						"translation.y": 5754.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
